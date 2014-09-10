@@ -24,6 +24,11 @@ digraph RGL__DirectedAdjacencyGraph {
         label = celt_englishman
     ]
 
+    ap [
+        fontsize = 8,
+        label = ap
+    ]
+
     politico [
         fontsize = 8,
         label = politico
@@ -96,6 +101,10 @@ digraph RGL__DirectedAdjacencyGraph {
     ]
 
     spivonomist -> celt_englishman [
+        fontsize = 8
+    ]
+
+    crampell -> ap [
         fontsize = 8
     ]
 

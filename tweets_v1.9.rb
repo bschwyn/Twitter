@@ -118,26 +118,26 @@ def print_all(array_of_usernames, token,tweetcount,order)
 		mentions = gets_username(tweets_array)
 		tweet_total = graph.out_degree(name)
 
-		#puts "the last #{tweetcount} tweets of #{name} are:\n\n"
-		#file.puts "the last #{tweetcount} tweets of #{name} are:\n\n"
+		puts "the last #{tweetcount} tweets of #{name} are:\n\n"
+		file.puts "the last #{tweetcount} tweets of #{name} are:\n\n"
 
-		#puts tweets_array
-		#file.puts tweets_array
-		#puts "\n"
-		#file.puts "\n"
+		puts tweets_array
+		file.puts tweets_array
+		puts "\n"
+		file.puts "\n"
 
-		#puts "#{name} mentioned these people:\n\n"
-		#file.puts "#{name} mentioned these people:\n\n"
+		puts "#{name} mentioned these people:\n\n"
+		file.puts "#{name} mentioned these people:\n\n"
 		
-		#puts mentions
-		#file.puts mentions
-		#puts "\n"
-		#file.puts "\n"
+		puts mentions
+		file.puts mentions
+		puts "\n"
+		file.puts "\n"
 		
 		puts "#{name} tweeted at #{tweet_total} unique users\n"
-		#file.puts tweet_total
-		#puts "\n"
-		#file.puts "\n"
+		file.puts "#{name} tweeted at #{tweet_total} unique users\n"
+		puts "\n"
+		file.puts "\n"
 	}
 		
 	
