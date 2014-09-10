@@ -1,0 +1,283 @@
+digraph RGL__DirectedAdjacencyGraph {
+    jlo [
+        fontsize = 8,
+        label = jlo
+    ]
+
+    marielhaenn [
+        fontsize = 8,
+        label = marielhaenn
+    ]
+
+    jlodancers [
+        fontsize = 8,
+        label = jlodancers
+    ]
+
+    mynuvotv [
+        fontsize = 8,
+        label = mynuvotv
+    ]
+
+    astepaway [
+        fontsize = 8,
+        label = astepaway
+    ]
+
+    bradleybredeweg [
+        fontsize = 8,
+        label = bradleybredeweg
+    ]
+
+    ryanseacrest [
+        fontsize = 8,
+        label = ryanseacrest
+    ]
+
+    oribe [
+        fontsize = 8,
+        label = oribe
+    ]
+
+    almaawards [
+        fontsize = 8,
+        label = almaawards
+    ]
+
+    gdla [
+        fontsize = 8,
+        label = gdla
+    ]
+
+    beaucaspersmart [
+        fontsize = 8,
+        label = beaucaspersmart
+    ]
+
+    ocregister [
+        fontsize = 8,
+        label = ocregister
+    ]
+
+    solocologne [
+        fontsize = 8,
+        label = solocologne
+    ]
+
+    teedramoses [
+        fontsize = 8,
+        label = teedramoses
+    ]
+
+    georgejonesjr [
+        fontsize = 8,
+        label = georgejonesjr
+    ]
+
+    marpop [
+        fontsize = 8,
+        label = marpop
+    ]
+
+    myangeljlo [
+        fontsize = 8,
+        label = myangeljlo
+    ]
+
+    krystalbee [
+        fontsize = 8,
+        label = krystalbee
+    ]
+
+    jkovisars [
+        fontsize = 8,
+        label = jkovisars
+    ]
+
+    maiamitchell [
+        fontsize = 8,
+        label = maiamitchell
+    ]
+
+    thefostersabcf [
+        fontsize = 8,
+        label = thefostersabcf
+    ]
+
+    thepeterpaige [
+        fontsize = 8,
+        label = thepeterpaige
+    ]
+
+    onairwithryan [
+        fontsize = 8,
+        label = onairwithryan
+    ]
+
+    britneyspears [
+        fontsize = 8,
+        label = britneyspears
+    ]
+
+    mcuban [
+        fontsize = 8,
+        label = mcuban
+    ]
+
+    justinbieber [
+        fontsize = 8,
+        label = justinbieber
+    ]
+
+    jlo -> marielhaenn [
+        fontsize = 8
+    ]
+
+    jlo -> jlo [
+        fontsize = 8
+    ]
+
+    jlo -> jlodancers [
+        fontsize = 8
+    ]
+
+    jlo -> mynuvotv [
+        fontsize = 8
+    ]
+
+    jlo -> astepaway [
+        fontsize = 8
+    ]
+
+    jlo -> bradleybredeweg [
+        fontsize = 8
+    ]
+
+    jlo -> ryanseacrest [
+        fontsize = 8
+    ]
+
+    marielhaenn -> oribe [
+        fontsize = 8
+    ]
+
+    marielhaenn -> jlo [
+        fontsize = 8
+    ]
+
+    jlodancers -> almaawards [
+        fontsize = 8
+    ]
+
+    jlodancers -> astepaway [
+        fontsize = 8
+    ]
+
+    jlodancers -> mynuvotv [
+        fontsize = 8
+    ]
+
+    jlodancers -> gdla [
+        fontsize = 8
+    ]
+
+    jlodancers -> beaucaspersmart [
+        fontsize = 8
+    ]
+
+    jlodancers -> ocregister [
+        fontsize = 8
+    ]
+
+    jlodancers -> jlodancers [
+        fontsize = 8
+    ]
+
+    jlodancers -> solocologne [
+        fontsize = 8
+    ]
+
+    jlodancers -> teedramoses [
+        fontsize = 8
+    ]
+
+    jlodancers -> georgejonesjr [
+        fontsize = 8
+    ]
+
+    mynuvotv -> marpop [
+        fontsize = 8
+    ]
+
+    mynuvotv -> jlodancers [
+        fontsize = 8
+    ]
+
+    mynuvotv -> mynuvotv [
+        fontsize = 8
+    ]
+
+    mynuvotv -> gdla [
+        fontsize = 8
+    ]
+
+    mynuvotv -> myangeljlo [
+        fontsize = 8
+    ]
+
+    mynuvotv -> astepaway [
+        fontsize = 8
+    ]
+
+    mynuvotv -> jlo [
+        fontsize = 8
+    ]
+
+    mynuvotv -> beaucaspersmart [
+        fontsize = 8
+    ]
+
+    mynuvotv -> ocregister [
+        fontsize = 8
+    ]
+
+    mynuvotv -> krystalbee [
+        fontsize = 8
+    ]
+
+    bradleybredeweg -> jkovisars [
+        fontsize = 8
+    ]
+
+    bradleybredeweg -> maiamitchell [
+        fontsize = 8
+    ]
+
+    bradleybredeweg -> bradleybredeweg [
+        fontsize = 8
+    ]
+
+    bradleybredeweg -> thefostersabcf [
+        fontsize = 8
+    ]
+
+    bradleybredeweg -> thepeterpaige [
+        fontsize = 8
+    ]
+
+    ryanseacrest -> onairwithryan [
+        fontsize = 8
+    ]
+
+    ryanseacrest -> britneyspears [
+        fontsize = 8
+    ]
+
+    ryanseacrest -> mcuban [
+        fontsize = 8
+    ]
+
+    ryanseacrest -> justinbieber [
+        fontsize = 8
+    ]
+}

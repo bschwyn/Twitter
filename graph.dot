@@ -1,0 +1,163 @@
+digraph RGL__DirectedAdjacencyGraph {
+    bryan_caplan [
+        fontsize = 8,
+        label = bryan_caplan
+    ]
+
+    sjsthriller [
+        fontsize = 8,
+        label = sjsthriller
+    ]
+
+    jlo [
+        fontsize = 8,
+        label = jlo
+    ]
+
+    marielhaenn [
+        fontsize = 8,
+        label = marielhaenn
+    ]
+
+    jlodancers [
+        fontsize = 8,
+        label = jlodancers
+    ]
+
+    mynuvotv [
+        fontsize = 8,
+        label = mynuvotv
+    ]
+
+    astepaway [
+        fontsize = 8,
+        label = astepaway
+    ]
+
+    oribe [
+        fontsize = 8,
+        label = oribe
+    ]
+
+    almaawards [
+        fontsize = 8,
+        label = almaawards
+    ]
+
+    gdla [
+        fontsize = 8,
+        label = gdla
+    ]
+
+    beaucaspersmart [
+        fontsize = 8,
+        label = beaucaspersmart
+    ]
+
+    ocregister [
+        fontsize = 8,
+        label = ocregister
+    ]
+
+    marpop [
+        fontsize = 8,
+        label = marpop
+    ]
+
+    myangeljlo [
+        fontsize = 8,
+        label = myangeljlo
+    ]
+
+    bryan_caplan -> sjsthriller [
+        fontsize = 8
+    ]
+
+    bryan_caplan -> bryan_caplan [
+        fontsize = 8
+    ]
+
+    sjsthriller -> bryan_caplan [
+        fontsize = 8
+    ]
+
+    jlo -> marielhaenn [
+        fontsize = 8
+    ]
+
+    jlo -> jlo [
+        fontsize = 8
+    ]
+
+    jlo -> jlodancers [
+        fontsize = 8
+    ]
+
+    jlo -> mynuvotv [
+        fontsize = 8
+    ]
+
+    jlo -> astepaway [
+        fontsize = 8
+    ]
+
+    marielhaenn -> oribe [
+        fontsize = 8
+    ]
+
+    marielhaenn -> jlo [
+        fontsize = 8
+    ]
+
+    jlodancers -> almaawards [
+        fontsize = 8
+    ]
+
+    jlodancers -> astepaway [
+        fontsize = 8
+    ]
+
+    jlodancers -> mynuvotv [
+        fontsize = 8
+    ]
+
+    jlodancers -> gdla [
+        fontsize = 8
+    ]
+
+    jlodancers -> beaucaspersmart [
+        fontsize = 8
+    ]
+
+    jlodancers -> ocregister [
+        fontsize = 8
+    ]
+
+    mynuvotv -> marpop [
+        fontsize = 8
+    ]
+
+    mynuvotv -> jlodancers [
+        fontsize = 8
+    ]
+
+    mynuvotv -> mynuvotv [
+        fontsize = 8
+    ]
+
+    mynuvotv -> gdla [
+        fontsize = 8
+    ]
+
+    mynuvotv -> myangeljlo [
+        fontsize = 8
+    ]
+
+    mynuvotv -> astepaway [
+        fontsize = 8
+    ]
+
+    mynuvotv -> jlo [
+        fontsize = 8
+    ]
+}
