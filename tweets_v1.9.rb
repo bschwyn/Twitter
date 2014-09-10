@@ -48,7 +48,7 @@ consumer_secret = "ST5t1LDjXj0v666Trua3I9HfNhb83efn8mzrGeQ143A"
 
 $PUNCTUATION = /[,!.#~`$%^&*()-=+\/\[{\]}\|;:'\",<.>?\\+\n \t]+/
 
-name_file = "shorttest.txt" #name of file to read usernames from
+name_file = "test_tweeters_ignore_format.txt" #name of file to read usernames from
 tweetcount= 3 #number of tweets from each username to print
 order = 2 #number of social connections away from original list
 
