@@ -4,9 +4,29 @@ digraph RGL__DirectedAdjacencyGraph {
         label = bryan_caplan
     ]
 
-    sjsthriller [
+    vahoniemi [
         fontsize = 8,
-        label = sjsthriller
+        label = vahoniemi
+    ]
+
+    spivonomist [
+        fontsize = 8,
+        label = spivonomist
+    ]
+
+    crampell [
+        fontsize = 8,
+        label = crampell
+    ]
+
+    celt_englishman [
+        fontsize = 8,
+        label = celt_englishman
+    ]
+
+    politico [
+        fontsize = 8,
+        label = politico
     ]
 
     jlo [
@@ -14,62 +34,52 @@ digraph RGL__DirectedAdjacencyGraph {
         label = jlo
     ]
 
-    marielhaenn [
+    usweekly [
         fontsize = 8,
-        label = marielhaenn
+        label = usweekly
     ]
 
-    jlodancers [
+    fashionrockstv [
         fontsize = 8,
-        label = jlodancers
+        label = fashionrockstv
     ]
 
-    mynuvotv [
+    parishilton [
         fontsize = 8,
-        label = mynuvotv
+        label = parishilton
     ]
 
-    astepaway [
+    newzcard [
         fontsize = 8,
-        label = astepaway
+        label = newzcard
     ]
 
-    oribe [
+    "mrjaymanuel’s" [
         fontsize = 8,
-        label = oribe
+        label = "mrjaymanuel’s"
     ]
 
-    almaawards [
+    erickmorillo [
         fontsize = 8,
-        label = almaawards
+        label = erickmorillo
     ]
 
-    gdla [
+    taodowntown [
         fontsize = 8,
-        label = gdla
+        label = taodowntown
     ]
 
-    beaucaspersmart [
+    "" [
         fontsize = 8,
-        label = beaucaspersmart
+        label = ""
     ]
 
-    ocregister [
+    stevemadden [
         fontsize = 8,
-        label = ocregister
+        label = stevemadden
     ]
 
-    marpop [
-        fontsize = 8,
-        label = marpop
-    ]
-
-    myangeljlo [
-        fontsize = 8,
-        label = myangeljlo
-    ]
-
-    bryan_caplan -> sjsthriller [
+    bryan_caplan -> vahoniemi [
         fontsize = 8
     ]
 
@@ -77,11 +87,31 @@ digraph RGL__DirectedAdjacencyGraph {
         fontsize = 8
     ]
 
-    sjsthriller -> bryan_caplan [
+    bryan_caplan -> spivonomist [
         fontsize = 8
     ]
 
-    jlo -> marielhaenn [
+    bryan_caplan -> crampell [
+        fontsize = 8
+    ]
+
+    spivonomist -> celt_englishman [
+        fontsize = 8
+    ]
+
+    crampell -> politico [
+        fontsize = 8
+    ]
+
+    jlo -> usweekly [
+        fontsize = 8
+    ]
+
+    jlo -> fashionrockstv [
+        fontsize = 8
+    ]
+
+    jlo -> parishilton [
         fontsize = 8
     ]
 
@@ -89,75 +119,39 @@ digraph RGL__DirectedAdjacencyGraph {
         fontsize = 8
     ]
 
-    jlo -> jlodancers [
+    fashionrockstv -> newzcard [
         fontsize = 8
     ]
 
-    jlo -> mynuvotv [
+    fashionrockstv -> "mrjaymanuel’s" [
         fontsize = 8
     ]
 
-    jlo -> astepaway [
+    fashionrockstv -> jlo [
         fontsize = 8
     ]
 
-    marielhaenn -> oribe [
+    fashionrockstv -> fashionrockstv [
         fontsize = 8
     ]
 
-    marielhaenn -> jlo [
+    parishilton -> erickmorillo [
         fontsize = 8
     ]
 
-    jlodancers -> almaawards [
+    parishilton -> parishilton [
         fontsize = 8
     ]
 
-    jlodancers -> astepaway [
+    parishilton -> taodowntown [
         fontsize = 8
     ]
 
-    jlodancers -> mynuvotv [
+    parishilton -> "" [
         fontsize = 8
     ]
 
-    jlodancers -> gdla [
-        fontsize = 8
-    ]
-
-    jlodancers -> beaucaspersmart [
-        fontsize = 8
-    ]
-
-    jlodancers -> ocregister [
-        fontsize = 8
-    ]
-
-    mynuvotv -> marpop [
-        fontsize = 8
-    ]
-
-    mynuvotv -> jlodancers [
-        fontsize = 8
-    ]
-
-    mynuvotv -> mynuvotv [
-        fontsize = 8
-    ]
-
-    mynuvotv -> gdla [
-        fontsize = 8
-    ]
-
-    mynuvotv -> myangeljlo [
-        fontsize = 8
-    ]
-
-    mynuvotv -> astepaway [
-        fontsize = 8
-    ]
-
-    mynuvotv -> jlo [
+    parishilton -> stevemadden [
         fontsize = 8
     ]
 }

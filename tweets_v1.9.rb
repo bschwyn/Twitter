@@ -24,7 +24,7 @@
 #How many times did person A mention person B?
 #Make a visual representation
 #???store multiple different things in the graph structure so that each name has both tweets and tweet-recipients attached
-#rather than storing stuff in a file as a giant list of crap, put tabs or something. Store it in columns:
+#rather than storing stuff in a file as a list, add formatting such as tabs Store it in columns:
 	#example: "username" \t "number of people tweeted at" \t "Number of 2nd order people" "number of 3rd order people" \t "most retweeted tweet" "etc"
 
 #This was a suggestion for the fileparser thingy.
@@ -51,7 +51,6 @@ $PUNCTUATION = /[,!.#~`$%^&*()-=+\/\[{\]}\|;:'\",<.>?\\+\n \t]+/
 name_file = "shorttest.txt" #name of file to read usernames from
 tweetcount= 3 #number of tweets from each username to print
 order = 2 #number of social connections away from original list
-
 
 #******************************************************************************************
 #takes access tokens and consumer tokens to give an access token instance
@@ -93,6 +92,8 @@ def getsTweetText(username,token,tweetcount)
 		end
 	}
 end
+
+
 
 # creates file, and prints the results of different methods
 def print_all(array_of_usernames, token,tweetcount,order)
@@ -144,6 +145,8 @@ def print_all(array_of_usernames, token,tweetcount,order)
 	#gvRender(
 	file.close
 end
+
+
 
 # This function returns an array of people that one twitter user tweeted at
 
@@ -203,6 +206,7 @@ def create_rec_graph(array_of_names, token, tweetcount, order)
 	return graph
 end
 
+
 #This is a recursive function that adds edges to a graph of tweet users. Each call adds another order of social connection.
 def rec_add_edge(name_array,token, tweetcount,order, graph, depth)
 	#puts "the count is #{count}"
@@ -227,9 +231,10 @@ end
 
 
 #*****************************************************************************************	
-
-
+puts "preparing token"
 token = prepare_access_token(access_token_key, access_token_secret, consumer_key, consumer_secret)
+puts "opening file"
 array_of_names = file_open(name_file)
+
 print_all(array_of_names, token, tweetcount,order)
 puts "end of program"
